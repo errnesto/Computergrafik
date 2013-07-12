@@ -10,7 +10,7 @@ import org.lwjgl.opengl.DisplayMode;
 public abstract class AbstractSetUp {
 	AbstractSetUp(){
 		try {
-			Display.setDisplayMode(new DisplayMode(800,600));
+			Display.setDisplayMode(new DisplayMode(800,800));
 			Display.create();
 		} catch (LWJGLException e) {
 			// TODO Auto-generated catch block
